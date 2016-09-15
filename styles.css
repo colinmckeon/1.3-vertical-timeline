@@ -25,6 +25,7 @@ h5{
   border-radius: 4px;
   margin-left: 320px;
   margin-bottom: 14px;
+  transition: background-color 2s, transform;
 }
 
 .frame-b {
@@ -34,6 +35,15 @@ h5{
   border-radius: 4px;
   margin-left: 320px;
   margin-bottom: 14px;
+  transition: background-color 2s, transform;
+}
+
+.frame-a:hover {
+  background-color: green;
+}
+
+.frame-b:hover {
+  background-color: green;
 }
 
 .frame-a h1{
